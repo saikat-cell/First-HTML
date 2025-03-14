@@ -1,25 +1,51 @@
+
+
+#temp{
+    margin-left: 50%;
+    height: 50px;
+    width: 70px;
+    border-radius: 10%;
+    border: 3px solid  #012d42;
+    margin-top: 5px;
+    background-color: #A9927D;
+    color : #0A0908;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#temp:hover{
+    color: white;
+    background-color:rgb(26, 37, 34);
+    transition: background-color 0.5s;
+}
 body{
-    background-color: black;
+    color : #F2F4F3;
+    background-color: #22333B;
+    
 }
-div{
-    color : white;
+table,td,tr,th{
+    margin-left: 30%;
+    border: 1px solid;
+    text-align: center;
+    width: 50%;
+    border-collapse: collapse;
+    
 }
-label{
-    color: white ;
+h1{
+    width: 30%;
+    text-align: center;
+    margin-left: 40%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
-#p1{
-    color : #00FF73;
-    font-family: "consolas",sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration:  underline;
-    font-size: 18px;
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: White;
 }
-#p2{
-    color : #00FF73;
-    font-family: "consolas",sans-serif;
+#logo{
+    color : rgb(63, 63, 210)
 }
-#first1{
-    background-color: white;
-    font-family: "Rowdies";
+a{
+    margin-right:200px;
 }
